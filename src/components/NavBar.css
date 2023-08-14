@@ -1,0 +1,19 @@
+.nav-link:hover {
+    background-color: black;
+    color: white !important;
+    border-radius: 5px;
+}
+
+img {
+    width: 80px;
+    height: 50px;
+}
+
+@media screen and (min-width : 320px) and (max-width : 480px){
+    #navbar {
+        background-color: grey;
+    }
+    .nav-link {
+        color: white;
+    }
+}
