@@ -9,7 +9,7 @@ const NavBar = () => {
         <div style={{ height: "50px" }}>
             <nav className="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
                 <div className="container-fluid">
-                    <a className="navbar-brand text-black" href="/">
+                    <a className="navbar-brand text-black" href="/My">
                         <img src={`${image}`} alt="Kiwi standing on oval" />
                     </a>
                     <button className="navbar-toggler collapsed"
@@ -23,16 +23,16 @@ const NavBar = () => {
                     <div className="navbar-collapse collapse" id="navbar">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-lg-end" style={{ width: "100%" }}>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/">Home</a>
+                                <a className="nav-link active" aria-current="page" href="/My">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/education">Education</a>
+                                <a className="nav-link" href="/My/education">Education</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/experience">Experience</a>
+                                <a className="nav-link" href="/My/experience">Experience</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/contact">Contact Me</a>
+                                <a className="nav-link" href="/My/contact">Contact Me</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link disabled" href="/">Disabled</a>
