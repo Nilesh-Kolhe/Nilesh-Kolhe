@@ -1,5 +1,14 @@
 .App {
-  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width : 320px) and (max-width : 480px){
+  .App {
+    background-position-x: 760px;
+    background-position-y: -135px;
+  }
 }
 
 .App-logo {
