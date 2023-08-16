@@ -1,6 +1,6 @@
 const Education = () => {
     return (
-        <h1>Education Page</h1>
+        <h1 style={{marginTop: "5px"}}>Education Page</h1>
     );
 }
  
