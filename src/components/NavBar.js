@@ -2,17 +2,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/js/bootstrap.js";
 import './NavBar.css';
 import image from './logo-svg.svg';
-import { useEffect } from 'react';
 
 const NavBar = () => {
     const baseUrl = "https://nilesh-kolhe.github.io/My/#";
-    const location = window.location.href;
+    let location = window.location.href;
+    console.log('Location: ', location);
     return (
         <div style={{ height: "50px" }}>
             <nav className="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
                 <div className="container-fluid">
-                    <a className="navbar-brand text-black" href="/My">
-                        <img src={`${image}`} alt="Kiwi standing on oval" />
+                    <a className="navbar-brand text-black" href={`${baseUrl}/home`}>
+                        <img src={`${image}`} alt="Logo" />
                     </a>
                     <button className="navbar-toggler collapsed"
                         type="button"
