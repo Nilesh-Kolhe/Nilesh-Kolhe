@@ -23,16 +23,16 @@ const NavBar = () => {
                     <div className="navbar-collapse collapse" id="navbar">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-lg-end" style={{ width: "100%" }}>
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/">Home</a>
+                                <a className="nav-link" aria-current="page" href="/#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/education">Education</a>
+                                <a className="nav-link" href="/#/education">Education</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/experience">Experience</a>
+                                <a className="nav-link" href="/#/experience">Experience</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/contact">Contact Me</a>
+                                <a className="nav-link" href="/#/contact">Contact Me</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link disabled" href="/">Disabled</a>
