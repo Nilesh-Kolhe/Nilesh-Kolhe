@@ -4,6 +4,12 @@
     border-radius: 5px;
 }
 
+.current {
+    background-color: black;
+    color: white !important;
+    border-radius: 5px;
+}
+
 img {
     width: 80px;
     height: 50px;
