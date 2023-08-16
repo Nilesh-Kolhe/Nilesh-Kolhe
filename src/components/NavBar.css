@@ -1,4 +1,4 @@
-.nav-link:hover, .nav-link:active, .nav-link:visited {
+.nav-link:hover, .nav-link:active {
     background-color: black;
     color: white !important;
     border-radius: 5px;
