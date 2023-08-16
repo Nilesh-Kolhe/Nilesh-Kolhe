@@ -4,7 +4,7 @@ import './NavBar.css';
 import image from './logo-svg.svg'
 
 const NavBar = () => {
-
+    const baseUrl = "https://nilesh-kolhe.github.io/My/#";
     return (
         <div style={{ height: "50px" }}>
             <nav className="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
@@ -26,7 +26,7 @@ const NavBar = () => {
                                 <a className="nav-link" aria-current="page" href="https://nilesh-kolhe.github.io/My/">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://nilesh-kolhe.github.io/My/#/education">Education</a>
+                                <a className="nav-link" href={`${baseUrl}/education`}>Education</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="https://nilesh-kolhe.github.io/My/#/experience">Experience</a>
