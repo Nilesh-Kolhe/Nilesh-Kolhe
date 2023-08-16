@@ -26,13 +26,13 @@ const NavBar = () => {
                                 <a className="nav-link" aria-current="page" href="https://nilesh-kolhe.github.io/My/">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://nilesh-kolhe.github.io/My/education">Education</a>
+                                <a className="nav-link" href="https://nilesh-kolhe.github.io/My/#/education">Education</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://nilesh-kolhe.github.io/My/experience">Experience</a>
+                                <a className="nav-link" href="https://nilesh-kolhe.github.io/My/#/experience">Experience</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://nilesh-kolhe.github.io/My/contact">Contact Me</a>
+                                <a className="nav-link" href="https://nilesh-kolhe.github.io/My/#/contact">Contact Me</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link disabled" href="/">Disabled</a>
