@@ -35,10 +35,10 @@ const NavBar = () => {
                                 <a className={current.includes("education") ? "nav-link current" : "nav-link"} onClick={() => setCurrent("education")} href={`${baseUrl}/education`}>Education</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled" href={`${baseUrl}/experience`}>Experience</a>
+                                <a className="nav-link disabled" onClick={() => setCurrent("experience")} href={`${baseUrl}/experience`}>Experience</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled" href={`${baseUrl}/contact`}>Contact Me</a>
+                                <a className="nav-link disabled" onClick={() => setCurrent("contact")} href={`${baseUrl}/contact`}>Contact Me</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link disabled" href="/">Disabled</a>

@@ -5,15 +5,17 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Education from './components/Education';
 import Experience from './components/Experience';
-import image from "./img2.jpg"; 
+import image from "./img2.jpg";
+import { Navigate } from 'react-router-dom';
 
 function App() {
 
   return (
-    <div className="App" style={{ display: "flex", flexDirection: "column", backgroundImage:`url(${image})`, backgroundSize:"cover" }}>
+    <div className="App" style={{ display: "flex", flexDirection: "column", backgroundImage: `url(${image})`, backgroundSize: "cover" }}>
       <Router>
         <NavBar />
         <Routes>
+          <Route path="/" element={<Navigate to="home" />} />
           <Route path="home" element={<Home />} />
           <Route path='education' element={<Education />} />
           <Route path='experience' element={<Experience />} />
