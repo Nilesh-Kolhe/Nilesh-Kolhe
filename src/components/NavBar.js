@@ -2,11 +2,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/js/bootstrap.js";
 import './NavBar.css';
 import image from './logo-svg.svg';
+import { useState, useEffect } from "react";
 
 const NavBar = () => {
     const baseUrl = "https://nilesh-kolhe.github.io/My/#";
-    let location = window.location.href;
-    console.log('Location: ', location);
+    const [current, setCurrent] = useState("home");
+    useEffect(() => {
+        console.log('Current Location: ', current);
+    }, [current]);
+
     return (
         <div style={{ height: "50px" }}>
             <nav className="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
@@ -25,16 +29,16 @@ const NavBar = () => {
                     <div className="navbar-collapse collapse" id="navbar">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-lg-end" style={{ width: "100%" }}>
                             <li className="nav-item">
-                                <a className={location.includes("home") ? "nav-link current" : "nav-link"} aria-current="page" href={`${baseUrl}/home`}>Home</a>
+                                <a className={current.includes("home") ? "nav-link current" : "nav-link"} onClick={() => setCurrent("home")} aria-current="page" href={`${baseUrl}/home`}>Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className={location.includes("education") ? "nav-link current" : "nav-link"} href={`${baseUrl}/education`}>Education</a>
+                                <a className={current.includes("education") ? "nav-link current" : "nav-link"} onClick={() => setCurrent("education")} href={`${baseUrl}/education`}>Education</a>
                             </li>
                             <li className="nav-item">
-                                <a className={location.includes("experience") ? "nav-link current" : "nav-link"} href={`${baseUrl}/experience`}>Experience</a>
+                                <a className="nav-link disabled" href={`${baseUrl}/experience`}>Experience</a>
                             </li>
                             <li className="nav-item">
-                                <a className={location.includes("contact") ? "nav-link current" : "nav-link"} href={`${baseUrl}/contact`}>Contact Me</a>
+                                <a className="nav-link disabled" href={`${baseUrl}/contact`}>Contact Me</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link disabled" href="/">Disabled</a>
