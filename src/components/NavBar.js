@@ -7,9 +7,6 @@ import { useState, useEffect } from "react";
 const NavBar = () => {
     const baseUrl = "https://nilesh-kolhe.github.io/My/#";
     const [current, setCurrent] = useState("home");
-    useEffect(() => {
-        console.log('Current Location: ', current);
-    }, [current]);
 
     return (
         <div style={{ height: "50px" }}>
