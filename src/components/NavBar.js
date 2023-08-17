@@ -15,7 +15,7 @@ const NavBar = () => {
         <div style={{ height: "50px" }}>
             <nav className="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
                 <div className="container-fluid">
-                    <a className="navbar-brand text-black" href={`${baseUrl}/home`}>
+                    <a className="navbar-brand text-black" onClick={() => setCurrent("home")} href={`${baseUrl}/home`}>
                         <img src={`${image}`} alt="Logo" />
                     </a>
                     <button className="navbar-toggler collapsed"
