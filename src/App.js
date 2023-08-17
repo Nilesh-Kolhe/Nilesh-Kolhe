@@ -4,7 +4,7 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import Education from './components/Education';
-import Experience from './components/Experience';
+import Work from './components/Work';
 import image from "./img2.jpg";
 import { Navigate } from 'react-router-dom';
 
@@ -18,7 +18,7 @@ function App() {
           <Route path="/" element={<Navigate to="home" />} />
           <Route path="home" element={<Home />} />
           <Route path='education' element={<Education />} />
-          <Route path='experience' element={<Experience />} />
+          <Route path='work' element={<Work />} />
           <Route path='contact' element={<Contact />} />
         </Routes>
       </Router >

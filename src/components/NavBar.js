@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/js/bootstrap.js";
 import './NavBar.css';
 import image from './logo-svg.svg';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const NavBar = () => {
     const baseUrl = "https://nilesh-kolhe.github.io/My/#";
@@ -32,13 +32,10 @@ const NavBar = () => {
                                 <a className={current.includes("education") ? "nav-link current" : "nav-link"} onClick={() => setCurrent("education")} href={`${baseUrl}/education`}>Education</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled" onClick={() => setCurrent("experience")} href={`${baseUrl}/experience`}>Experience</a>
+                                <a className="nav-link disabled" onClick={() => setCurrent("work")} href={`${baseUrl}/work`}>Work</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link disabled" onClick={() => setCurrent("contact")} href={`${baseUrl}/contact`}>Contact Me</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link disabled" href="/">Disabled</a>
                             </li>
                         </ul>
                     </div>
