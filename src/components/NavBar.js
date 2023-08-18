@@ -42,7 +42,7 @@ const NavBar = () => {
                                 <a className={current.includes("education") ? "nav-link current" : "nav-link"} onClick={() => setCurrent("education")} style={{ color: "black", fontWeight: "700", paddingRight: "7px" }} href={`${baseUrl}/education`}>Education</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" onClick={() => setCurrent("work")} style={{ color: "black", fontWeight: "700", paddingRight: "7px" }} href={`${baseUrl}/work`}>Work</a>
+                                <a className={current.includes("work") ? "nav-link current" : "nav-link"} onClick={() => setCurrent("work")} style={{ color: "black", fontWeight: "700", paddingRight: "7px" }} href={`${baseUrl}/work`}>Work</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link disabled" onClick={() => setCurrent("contact")} style={{ color: "black", fontWeight: "700", paddingRight: "7px" }} href={`${baseUrl}/contact`}>Contact Me</a>
