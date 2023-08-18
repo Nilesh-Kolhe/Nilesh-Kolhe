@@ -19,7 +19,7 @@ img {
     #navbar {
         background-color: whitesmoke;
     }
-    li {
+    li.nav-item {
         text-align: right;
     }
 }
