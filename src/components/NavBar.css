@@ -1,6 +1,6 @@
 .nav-link:hover, .nav-link:active {
-    background-color: black;
-    color: white !important;
+    background-color: #000;
+    color: #fff !important;
     border-radius: 5px;
 }
 
@@ -17,9 +17,9 @@ img {
 
 @media screen and (min-width : 320px) and (max-width : 480px){
     #navbar {
-        background-color: grey;
+        background-color: whitesmoke;
     }
-    .nav-link {
-        color: white;
+    li {
+        text-align: right;
     }
 }

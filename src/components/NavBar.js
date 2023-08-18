@@ -8,6 +8,17 @@ const NavBar = () => {
     const baseUrl = "https://nilesh-kolhe.github.io/My/#";
     const [current, setCurrent] = useState("home");
 
+    document.addEventListener("click", function (event) {
+        var clickover = event.target;
+        // var navbar = document.getElementById("navbar");   
+        var navbar = document.querySelector("nav div.container-fluid div#navbar");
+        var _opened = navbar.classList.contains("show");
+        if (_opened === true) {      
+            navbar.classList.remove('show');
+            navbar.classList.add('hide');
+        }
+    });
+
     return (
         <div style={{ height: "50px" }}>
             <nav className="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
@@ -24,18 +35,18 @@ const NavBar = () => {
                     </button>
 
                     <div className="navbar-collapse collapse" id="navbar">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-lg-end" style={{ width: "100%" }}>
+                        <ul className="navbar-nav mb-lg-0 justify-content-lg-end" style={{ width: "100%" }}>
                             <li className="nav-item">
-                                <a className={current.includes("home") ? "nav-link current" : "nav-link"} onClick={() => setCurrent("home")} aria-current="page" href={`${baseUrl}/home`}>Home</a>
+                                <a className={current.includes("home") ? "nav-link current" : "nav-link"} onClick={() => setCurrent("home")} style={{color:"black", fontWeight: "700", paddingRight: "5px"}} aria-current="page" href={`${baseUrl}/home`}>Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className={current.includes("education") ? "nav-link current" : "nav-link"} onClick={() => setCurrent("education")} href={`${baseUrl}/education`}>Education</a>
+                                <a className={current.includes("education") ? "nav-link current" : "nav-link"} onClick={() => setCurrent("education")} style={{color:"black", fontWeight: "700", paddingRight: "5px"}} href={`${baseUrl}/education`}>Education</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled" onClick={() => setCurrent("work")} href={`${baseUrl}/work`}>Work</a>
+                                <a className="nav-link disabled" onClick={() => setCurrent("work")} style={{color:"black", fontWeight: "700", paddingRight: "5px"}} href={`${baseUrl}/work`}>Work</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled" onClick={() => setCurrent("contact")} href={`${baseUrl}/contact`}>Contact Me</a>
+                                <a className="nav-link disabled" onClick={() => setCurrent("contact")} style={{color:"black", fontWeight: "700", paddingRight: "5px"}} href={`${baseUrl}/contact`}>Contact Me</a>
                             </li>
                         </ul>
                     </div>
