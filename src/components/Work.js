@@ -16,6 +16,7 @@ import postman from './postman.svg';
 import git from './GIT.svg';
 import redux from './redux.svg';
 import azuredevops from './azure-devops.svg';
+import jira from './Jira.svg';
 import './Work.css';
 
 const Work = () => {
@@ -115,6 +116,10 @@ const Work = () => {
                         <div className="img-container">
                             <img src={`${git}`} alt="Git Logo" />
                             <p> GIT </p>
+                        </div>
+                        <div className="img-container">
+                            <img src={`${jira}`} alt="Jira Logo" />
+                            <p> JIRA </p>
                         </div>
                         <div className="img-container">
                             <img src={`${agile}`} alt="Agile Logo" />
