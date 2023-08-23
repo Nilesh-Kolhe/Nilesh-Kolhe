@@ -39,7 +39,6 @@ const Work = () => {
                             <img src={`${js}`} alt="JavaScript Logo" />
                             <p>JavaScript</p>
                         </div>
-
                         <div className="img-container">
                             <img src={`${ts}`} alt="TypeScript Logo" />
                             <p>TypeScript</p>

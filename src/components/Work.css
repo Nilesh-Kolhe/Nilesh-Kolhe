@@ -4,6 +4,18 @@
     align-items: center;
 }
 
+.img-container img:hover {
+    transform:scale(1.20);
+    -ms-transform: scale(1.20); /* IE 9 */
+    -webkit-transform: scale(1.20); /* Safari 3-8 */
+    background: transparent;
+}
+
+.img-container img {
+    transition: transform .2s;
+    padding: 3px;
+}
+
 @media only screen and (min-width : 320px) and (max-width : 768px) {
     div.img-container img {
         width: 80px;
