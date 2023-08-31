@@ -7,11 +7,11 @@ import Education from './components/Education';
 import Work from './components/Work';
 import image from "./img2.jpg";
 import telephone from "./telephone.jpg";
-import { Navigate, useLocation } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 import { useEffect } from "react";
 
 function App() {
-  const currentLocation = useLocation();
+  const currentLocation = window.location.href;
   console.log('Use Location Location: ', currentLocation);
   let backgroundImage = image;
   useEffect(() => {
