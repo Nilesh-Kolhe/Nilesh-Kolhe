@@ -6,12 +6,22 @@ import Contact from './components/Contact';
 import Education from './components/Education';
 import Work from './components/Work';
 import image from "./img2.jpg";
+import telephone from "./telephone.jpg";
 import { Navigate } from 'react-router-dom';
+import { useEffect } from "react";
 
 function App() {
+  let backgroundImage = image;
+  useEffect(() => {
+    console.log("Location: ", window.location.href, ' Includes : ', window.location.href.includes("contact"));
+    if(window.location.href.includes("contact")) {
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+      backgroundImage = telephone;
+    }
+  }, []);
 
   return (
-    <div className="App" style={{ display: "flex", flexDirection: "column", backgroundImage: `url(${image})`, backgroundSize: "cover" }}>
+    <div className="App" style={{ display: "flex", flexDirection: "column", backgroundImage: `url(${backgroundImage})`, backgroundSize: "cover" }}>
       <Router>
         <NavBar />
         <Routes>
