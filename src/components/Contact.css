@@ -1,3 +1,8 @@
+.contact-container {
+    display: flex;
+    height: 100%;
+}
+
 input {
     height: 40px;
     border-style: none;
@@ -19,4 +24,13 @@ input {
     border-style: none;
     background-color: #000;
     color: #fff;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+    .contact-container > div.container {
+        width: 100% !important;
+    }
 }

@@ -34,7 +34,7 @@ const Contact = () => {
     }
 
     return (
-        <div style={{ display: "flex", height: "100%" }}>
+        <div className="contact-container">
             <div className="container" style={{ width: "70%" }}>
                 <div className="card" style={{ borderStyle: "none" }}>
                     <div className="body-container" style={{ backgroundColor: "whitesmoke", color: "#000" }}>
@@ -101,7 +101,7 @@ const Contact = () => {
                                 />
                             </div>
                             <div style={{ display: "flex", justifyContent: "center" }}>
-                                <input className="submit-button" style={{ width: "15%" }} type="submit" />
+                                <input className="submit-button" style={{ width: "70px" }} type="submit" />
                             </div>
                         </form>
                     </div>
