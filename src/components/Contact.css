@@ -1,0 +1,22 @@
+input {
+    height: 40px;
+    border-style: none;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.contact-form {
+    width: 50%;
+    padding: 10px;
+}
+
+.contact-form:active {
+    border-style: none;
+}
+
+.submit-button {
+    border-radius: 5px;
+    border-style: none;
+    background-color: #000;
+    color: #fff;
+}
