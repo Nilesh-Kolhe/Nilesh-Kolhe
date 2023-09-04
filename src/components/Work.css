@@ -1,3 +1,13 @@
+.work-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-image: url("./img7.jpg");
+    background-size: cover;
+}
+
 .img-container {
     display: flex;
     flex-direction: column;
@@ -24,8 +34,7 @@
     .card {
         margin-right: 0px;
     }
-    .container {
-        align-items: flex-start;
-        justify-content: center;
+    .work-container {
+        flex-direction: column;
     }
 }

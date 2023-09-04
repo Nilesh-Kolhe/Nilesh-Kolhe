@@ -21,13 +21,10 @@ import './Work.css';
 
 const Work = () => {
     return (
-        <div className="container">
-            <div className="card" style={{ marginRight: "20px" }}>
-                <div className="body-container">
-                    <p className="title" style={{ textAlign: "center" }}>Front-End</p>
-                </div>
-                <div className="card-body" style={{ display: "flex", fontSize: "smaller", paddingLeft: "10px" }}>
-                    <div style={{ display: "flex", flexWrap: "wrap" }}>
+        <div className="work-container">
+            <div className="card" style={{ margin: "20px" }}>
+                <div className="body-container" style={{ display: "flex", fontSize: "smaller", paddingLeft: "10px", height: "100%", backgroundColor: "whitesmoke", color: "#000" }}>
+                    <div style={{ display: "flex", flexWrap: "wrap", marginTop: "10px" }}>
                         <div className="img-container">
                             <img className="tech-logo" src={`${html}`} alt="HTML Logo" />
                             <p>HTML 5</p>
@@ -56,7 +53,6 @@ const Work = () => {
                             <img className="tech-logo" src={`${angular}`} alt="Angular Logo" />
                             <p>Angular</p>
                         </div>
-
                         <div className="img-container">
                             <img className="tech-logo" src={`${react}`} alt="React Logo" />
                             <p>React</p>
@@ -65,64 +61,58 @@ const Work = () => {
                 </div>
             </div>
 
-            <div className="card" style={{ marginRight: "20px" }}>
-                <div className="body-container">
-                    <p className="title" style={{ textAlign: "center" }}>Back-End</p>
-                </div>
-                <div className="card-body" style={{ display: "flex", fontSize: "smaller", paddingLeft: "10px" }}>
-                    <div style={{ display: "flex", flexWrap: "wrap" }}>
+            <div className="card" style={{ margin: "20px" }}>
+                <div className="body-container" style={{ display: "flex", fontSize: "smaller", paddingLeft: "10px", height: "100%", backgroundColor: "whitesmoke", color: "#000" }}>
+                    <div style={{ display: "flex", flexWrap: "wrap", marginTop: "10px" }}>
                         <div className="img-container">
-                            <img src={`${csharp}`} alt="C-Sharp Logo" />
+                            <img className="tech-logo" src={`${csharp}`} alt="C-Sharp Logo" />
                             <p>C Sharp</p>
                         </div>
                         <div className="img-container">
-                            <img src={`${dotnet}`} alt="Dot Net Logo" />
+                            <img className="tech-logo" src={`${dotnet}`} alt="Dot Net Logo" />
                             <p>Dot Net</p>
                         </div>
                         <div className="img-container">
-                            <img src={`${dotnetcore}`} alt="Dot Net Core Logo" />
+                            <img className="tech-logo" src={`${dotnetcore}`} alt="Dot Net Core Logo" />
                             <p>Dot Net Core</p>
                         </div>
                         <div className="img-container">
-                            <img src={`${azure}`} alt="Azure Logo" />
+                            <img className="tech-logo" src={`${azure}`} alt="Azure Logo" />
                             <p> MS Azure </p>
                         </div>
                         <div className="img-container">
-                            <img src={`${azuredevops}`} alt="Azure DevOps Logo" />
+                            <img className="tech-logo" src={`${azuredevops}`} alt="Azure DevOps Logo" />
                             <p> Azure DevOps </p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="card">
-                <div className="body-container">
-                    <p className="title" style={{ textAlign: "center" }}>Misc</p>
-                </div>
-                <div className="card-body" style={{ display: "flex", fontSize: "smaller", paddingLeft: "10px" }}>
-                    <div style={{ display: "flex", flexWrap: "wrap" }}>
+            <div className="card" style={{ margin: "20px" }}>
+                <div className="body-container" style={{ display: "flex", fontSize: "smaller", paddingLeft: "10px", height: "100%", backgroundColor: "whitesmoke", color: "#000" }}>
+                    <div style={{ display: "flex", flexWrap: "wrap", marginTop: "10px" }}>
                         <div className="img-container">
-                            <img src={`${vscode}`} alt="VS-Code Logo" />
+                            <img className="tech-logo" src={`${vscode}`} alt="VS-Code Logo" />
                             <p> VS Code </p>
                         </div>
                         <div className="img-container">
-                            <img src={`${visualstudio}`} alt="VS Logo" />
+                            <img className="tech-logo" src={`${visualstudio}`} alt="VS Logo" />
                             <p> Visual Studio </p>
                         </div>
                         <div className="img-container">
-                            <img src={`${postman}`} alt="Postman Logo" />
+                            <img className="tech-logo" src={`${postman}`} alt="Postman Logo" />
                             <p> Postman </p>
                         </div>
                         <div className="img-container">
-                            <img src={`${git}`} alt="Git Logo" />
+                            <img className="tech-logo" src={`${git}`} alt="Git Logo" />
                             <p> GIT </p>
                         </div>
                         <div className="img-container">
-                            <img src={`${jira}`} alt="Jira Logo" />
+                            <img className="tech-logo" src={`${jira}`} alt="Jira Logo" />
                             <p> JIRA </p>
                         </div>
                         <div className="img-container">
-                            <img src={`${agile}`} alt="Agile Logo" />
+                            <img className="tech-logo" src={`${agile}`} alt="Agile Logo" />
                             <p> Agile </p>
                         </div>
                     </div>
