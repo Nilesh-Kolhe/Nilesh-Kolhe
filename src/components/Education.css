@@ -61,6 +61,8 @@ div.card {
 
     div.card {
         width: 350px;
+        height: 170px;
+        margin: 0px !important;
     }
 
     .lg-only {
