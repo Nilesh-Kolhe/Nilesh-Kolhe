@@ -11,7 +11,7 @@ const Education = () => {
                     <div style={{ display: "flex" }}>
                         <div style={{ display: "flex", flexDirection: "column", width: "400px" }}>
                             <p className="title">Pune University</p>
-                            <p className="subtitle">Sinhgad Insitute, Pune</p>
+                            <p className="subtitle">Sinhgad Institute, Pune</p>
                             <p className="subtitle" style={{ fontWeight: "700px" }}>Bachelor of Engineering (Computer)</p>
                         </div>
                         <div>

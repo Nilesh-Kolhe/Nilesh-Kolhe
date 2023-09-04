@@ -18,7 +18,7 @@ const NavBar = () => {
     });
 
     return (
-        <div style={{ height: "50px" }}>
+        <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
                 <div className="container-fluid">
                     <a className="navbar-brand text-black" onClick={() => setCurrent("home")} href={`${baseUrl}/home`}>

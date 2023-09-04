@@ -5,12 +5,11 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Education from './components/Education';
 import Work from './components/Work';
-import image from "./img2.jpg";
 import { Navigate } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App" style={{ display: "flex", flexDirection: "column", backgroundImage: `url(${image})`, backgroundSize: "cover" }}>
+    <div className="App">
       <Router>
         <NavBar />
         <Routes>

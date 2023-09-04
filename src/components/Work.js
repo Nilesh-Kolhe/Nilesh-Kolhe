@@ -29,36 +29,36 @@ const Work = () => {
                 <div className="card-body" style={{ display: "flex", fontSize: "smaller", paddingLeft: "10px" }}>
                     <div style={{ display: "flex", flexWrap: "wrap" }}>
                         <div className="img-container">
-                            <img src={`${html}`} alt="HTML Logo" />
+                            <img className="tech-logo" src={`${html}`} alt="HTML Logo" />
                             <p>HTML 5</p>
                         </div>
                         <div className="img-container">
-                            <img src={`${css}`} alt="CSS Logo" />
+                            <img className="tech-logo" src={`${css}`} alt="CSS Logo" />
                             <p>CSS</p>
                         </div>
                         <div className="img-container">
-                            <img src={`${js}`} alt="JavaScript Logo" />
+                            <img className="tech-logo" src={`${js}`} alt="JavaScript Logo" />
                             <p>JavaScript</p>
                         </div>
                         <div className="img-container">
-                            <img src={`${ts}`} alt="TypeScript Logo" />
+                            <img className="tech-logo" src={`${ts}`} alt="TypeScript Logo" />
                             <p>TypeScript</p>
                         </div>
                         <div className="img-container">
-                            <img src={`${bootstrap}`} alt="Bootstrap Logo" />
+                            <img className="tech-logo" src={`${bootstrap}`} alt="Bootstrap Logo" />
                             <p>Bootstrap</p>
                         </div>
                         <div className="img-container">
-                            <img src={`${redux}`} alt="Redux Logo" />
+                            <img className="tech-logo" src={`${redux}`} alt="Redux Logo" />
                             <p>Redux</p>
                         </div>
                         <div className="img-container">
-                            <img src={`${angular}`} alt="Angular Logo" />
+                            <img className="tech-logo" src={`${angular}`} alt="Angular Logo" />
                             <p>Angular</p>
                         </div>
 
                         <div className="img-container">
-                            <img src={`${react}`} alt="React Logo" />
+                            <img className="tech-logo" src={`${react}`} alt="React Logo" />
                             <p>React</p>
                         </div>
                     </div>

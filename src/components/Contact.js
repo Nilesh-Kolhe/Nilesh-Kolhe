@@ -2,59 +2,58 @@ import './Contact.css';
 import location from './Location.svg';
 import linkedin from './LinkedIn.svg';
 import instagram from './Instagram.svg';
+import twitter from './Twitter.svg';
+import email from './GMail.svg';
 
 const Contact = () => {
-    // const [inputs, setInputs] = useState({});
-
-    // const handleChange = (event) => {
-    //     const name = event.target.name;
-    //     const value = event.target.value;
-    //     setInputs(values => ({ ...values, [name]: value }))
-    // }
-
-    // const handleSubmit = (event) => {
-    //     event.preventDefault();
-    //     if (inputs.firstname === "" || inputs.firstname === undefined) {
-    //         const firstname = document.getElementsByName("firstname");
-    //         firstname[0].style.borderStyle = "groove";
-    //         firstname[0].style.borderColor = "red";
-    //     }
-    //     if (inputs.lastname === "" || inputs.firstname === undefined) {
-    //         const lastname = document.getElementsByName("lastname");
-    //         lastname[0].style.borderStyle = "groove";
-    //         lastname[0].style.borderColor = "red";
-    //     }
-    //     if (inputs.email === "" || inputs.email === undefined) {
-    //         const email = document.getElementsByName("email");
-    //         email[0].style.borderStyle = "groove";
-    //         email[0].style.borderColor = "red";
-    //     }
-    //     console.log('Console First Name: ', inputs.firstname, ' Last Name: ', inputs.lastname, ' Email ID: ', inputs.email, ' Subject: ', inputs.subject);
-    // }
 
     return (
         <div className="contact-container">
-            <div className="container" style={{ width: "50%" }}>
-                {/* <img id="contact" src={`${image}`} alt="Logo" /> */}
-            </div>
-
             <div className="container">
                 <div className="card" style={{ display: "flex", borderStyle: "none", width: "80%" }}>
-                    <div className="body-container" style={{ display: "flex", backgroundColor: "whitesmoke", color: "#000" }}>
-                        <div className="img-container" style={{ flexDirection: "row", margin: "25px 0px" }}>
-                            <img src={`${location}`} alt="Location Logo" />
-                            <div>
-                                <p className="text-muted">Punawale</p>
-                                <p className="text-muted">Pune, Maharashtra, India - 411033</p>
+                    <div className="body-container" style={{ display: "flex", flexDirection: "column", alignItems: "center", backgroundColor: "whitesmoke", color: "#000" }}>
+                        <div><div style={{ display: "flex", flexDirection: "column" }}>
+                            <div className="img-container" style={{ flexDirection: "row", margin: "25px 5px" }}>
+                                <img src={`${location}`} alt="Location Logo" />
+                                <div>
+                                    <p className="fw-bolder">Location</p>
+                                    <p className="text-muted">Punawale</p>
+                                    <p className="text-muted">Pune, Maharashtra, India - 411033</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="img-container" style={{ flexDirection: "row", margin: "25px 0px" }}>
-                            <img src={`${linkedin}`} alt="LinkedIn Logo" />
-                            <a className="text-muted" href="https://www.linkedin.com/in/nilesh-kolhe/" rel="noreferrer" target="_blank">/nilesh-kolhe</a>
                         </div>
-                        <div className="img-container" style={{ flexDirection: "row", margin: "25px 0px" }}>
-                            <img src={`${instagram}`} alt="Instagram Logo" />
-                            <a className="text-muted" href="https://instagram.com/neelesh_kolhe/" rel="noreferrer" target="_blank"><p className="text-muted">/neelesh_kolhe</p></a>
+                        <div>
+                            <div style={{ display: "flex" }}>
+                                <div className="img-container" style={{ flexDirection: "row", margin: "25px 5px" }}>
+                                    <img src={`${linkedin}`} alt="LinkedIn Logo" />
+                                    <div>
+                                        <p className="fw-bolder">LinkedIn</p>
+                                        <a className="text-muted" href="https://www.linkedin.com/in/nilesh-kolhe/" rel="noreferrer" target="_blank">/nilesh-kolhe</a>
+                                    </div>
+                                </div>
+                                <div className="img-container" style={{ flexDirection: "row", margin: "25px 5px" }}>
+                                    <img src={`${instagram}`} alt="Instagram Logo" />
+                                    <div>
+                                        <p className="fw-bolder">Instagram</p>
+                                        <a className="text-muted" href="https://instagram.com/neelesh_kolhe/" rel="noreferrer" target="_blank"><p className="text-muted">/neelesh_kolhe</p></a>
+                                    </div>
+                                </div>
+                                <div className="img-container" style={{ flexDirection: "row", margin: "25px 5px" }}>
+                                    <img src={`${twitter}`} alt="Twitter Logo" />
+                                    <div>
+                                        <p className="fw-bolder">Twitter</p>
+                                        <a className="text-muted" href="https://instagram.com/neelesh_kolhe/" rel="noreferrer" target="_blank"><p className="text-muted">/NeeleshKolhe</p></a>
+                                    </div>
+                                </div>
+                                <div className="img-container" style={{ flexDirection: "row", margin: "25px 5px" }}>
+                                    <img src={`${email}`} alt="Email Logo" />
+                                    <div>
+                                        <p className="fw-bolder">GMail</p>
+                                        <a className="text-muted" href="mailto:nilesh.work.001@gmail.com" rel="noreferrer" target="_blank"><p className="text-muted">nilesh.work.001</p></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
