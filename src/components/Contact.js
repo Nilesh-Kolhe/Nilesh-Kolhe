@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="contact-container">
             <div className="card" style={{ display: "flex", borderStyle: "none", width: "70%" }}>
                 <div className="body-container" style={{ display: "flex", flexDirection: "column", alignItems: "center", backgroundColor: "whitesmoke", color: "#000" }}>
-                    <div><div style={{ display: "flex", flexDirection: "column" }}>
+                    <div style={{ display: "flex", flexDirection: "column" }}>
                         <div className="img-container" style={{ flexDirection: "row", margin: "25px 5px" }}>
                             <img style={{ height: "60px" }} src={`${location}`} alt="Location Logo" />
                             <div>
@@ -20,7 +20,6 @@ const Contact = () => {
                                 <p className="text-muted">Pune, Maharashtra, India - 411033</p>
                             </div>
                         </div>
-                    </div>
                     </div>
                     <div id="social-container" style={{ display: "flex" }}>
                         <div className="img-container" style={{ flexDirection: "row", margin: "25px 5px" }}>
