@@ -33,7 +33,6 @@ ul {
 
 div.card {
     width: 500px;
-    height: 200px;
 }
 
 .edu-logo {
@@ -61,7 +60,7 @@ div.card {
 
     div.card {
         width: 350px;
-        height: 170px;
+        height: 150px;
         margin: 0px !important;
     }
 
