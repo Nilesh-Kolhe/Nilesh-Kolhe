@@ -23,7 +23,7 @@ const Work = () => {
     return (
         <div className="work-container">
             <div className="card" style={{ margin: "20px" }}>
-                <div className="body-container" style={{ display: "flex", fontSize: "smaller", paddingLeft: "10px", height: "100%", backgroundColor: "whitesmoke", color: "#000" }}>
+                <div className="body-container" style={{ display: "flex", fontSize: "smaller", paddingLeft: "30px", height: "100%", backgroundColor: "whitesmoke", color: "#000" }}>
                     <div style={{ display: "flex", flexWrap: "wrap", marginTop: "10px" }}>
                         <div className="img-container">
                             <img className="tech-logo" src={`${html}`} alt="HTML Logo" />
@@ -62,7 +62,7 @@ const Work = () => {
             </div>
 
             <div className="card" style={{ margin: "20px" }}>
-                <div className="body-container" style={{ display: "flex", fontSize: "smaller", paddingLeft: "10px", height: "100%", backgroundColor: "whitesmoke", color: "#000" }}>
+                <div className="body-container" style={{ display: "flex", fontSize: "smaller", paddingLeft: "30px", height: "100%", backgroundColor: "whitesmoke", color: "#000" }}>
                     <div style={{ display: "flex", flexWrap: "wrap", marginTop: "10px" }}>
                         <div className="img-container">
                             <img className="tech-logo" src={`${csharp}`} alt="C-Sharp Logo" />
@@ -89,7 +89,7 @@ const Work = () => {
             </div>
 
             <div className="card" style={{ margin: "20px" }}>
-                <div className="body-container" style={{ display: "flex", fontSize: "smaller", paddingLeft: "10px", height: "100%", backgroundColor: "whitesmoke", color: "#000" }}>
+                <div className="body-container" style={{ display: "flex", fontSize: "smaller", paddingLeft: "30px", height: "100%", backgroundColor: "whitesmoke", color: "#000" }}>
                     <div style={{ display: "flex", flexWrap: "wrap", marginTop: "10px" }}>
                         <div className="img-container">
                             <img className="tech-logo" src={`${vscode}`} alt="VS-Code Logo" />
