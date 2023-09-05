@@ -5,7 +5,7 @@ import CDAC from './CDAC.svg';
 
 const Education = () => {
     return (
-        <div className="container">
+        <div className="education-container">
             <div className="card">
                 <div className="body-container">
                     <div style={{ display: "flex" }}>

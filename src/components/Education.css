@@ -2,12 +2,14 @@ p {
     margin: 0px;
 }
 
-.container {
+.education-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
+    background-image: url("./img6.jpg");
+    background-size: cover;
 }
 
 .body-container {
