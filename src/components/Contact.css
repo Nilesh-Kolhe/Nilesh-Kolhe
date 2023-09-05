@@ -47,4 +47,9 @@ input {
     .contact-container > div.container {
         width: 100% !important;
     }
+
+    #social-container {
+        flex-direction: column;
+        width: 100%;
+    }
 }
