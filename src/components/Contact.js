@@ -14,7 +14,7 @@ const Contact = () => {
                     <div className="body-container" style={{ display: "flex", flexDirection: "column", alignItems: "center", backgroundColor: "whitesmoke", color: "#000" }}>
                         <div><div style={{ display: "flex", flexDirection: "column" }}>
                             <div className="img-container" style={{ flexDirection: "row", margin: "25px 5px" }}>
-                                <img src={`${location}`} alt="Location Logo" />
+                                <img style={{height: "60px"}} src={`${location}`} alt="Location Logo" />
                                 <div>
                                     <p className="fw-bolder">Location</p>
                                     <p className="text-muted">Punawale</p>
@@ -47,7 +47,7 @@ const Contact = () => {
                                     </div>
                                 </div>
                                 <div className="img-container" style={{ flexDirection: "row", margin: "25px 5px" }}>
-                                    <img style={{height: "40px"}} src={`${email}`} alt="Email Logo" />
+                                    <img style={{height: "37px"}} src={`${email}`} alt="Email Logo" />
                                     <div>
                                         <p className="fw-bolder">GMail</p>
                                         <a className="text-muted" href="mailto:nilesh.work.001@gmail.com" rel="noreferrer" target="_blank"><p className="text-muted">nilesh.work.001</p></a>

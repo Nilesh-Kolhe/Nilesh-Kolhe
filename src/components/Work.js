@@ -17,6 +17,7 @@ import git from './GIT.svg';
 import redux from './redux.svg';
 import azuredevops from './azure-devops.svg';
 import jira from './Jira.svg';
+import resharper from './ReSharper.svg';
 import './Work.css';
 
 const Work = () => {
@@ -114,6 +115,10 @@ const Work = () => {
                         <div className="img-container">
                             <img className="tech-logo" src={`${agile}`} alt="Agile Logo" />
                             <p> Agile </p>
+                        </div>
+                        <div className="img-container">
+                            <img className="tech-logo" src={`${resharper}`} alt="ReSharper Logo" />
+                            <p> ReSharper </p>
                         </div>
                     </div>
                 </div>
