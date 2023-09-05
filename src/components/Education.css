@@ -62,7 +62,7 @@ div.card {
 
     div.card {
         width: 350px;
-        margin: 0px !important;
+        margin: 10px;
     }
 
     .lg-only {
