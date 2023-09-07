@@ -36,5 +36,6 @@
     }
     .work-container {
         flex-direction: column;
+        background-position: right;
     }
 }
