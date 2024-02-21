@@ -5,7 +5,7 @@ import image from './logo-svg.svg';
 import { useState } from "react";
 
 const NavBar = () => {
-    const baseUrl = "https://nilesh-kolhe.github.io/My/#";
+    const baseUrl = "https://nilesh-kolhe.github.io/Nilesh-Kolhe/#";
     const [current, setCurrent] = useState("home");
 
     document.addEventListener("click", function (event) {
