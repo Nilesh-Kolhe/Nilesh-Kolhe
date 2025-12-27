@@ -155,4 +155,4 @@ I'm open to:
 
 ---
 
-**Last Updated**: December 2025 | [Edit this README](https://github.com/Nilesh-Kolhe/Nilesh-Kolhe/edit/main/README.md)
+**Last Updated**: December 2025
