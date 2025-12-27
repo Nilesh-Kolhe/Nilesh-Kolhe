@@ -88,8 +88,8 @@ Responsive, modern portfolio built with React showcasing professional work and t
 
 ## 🎓 Education & Certifications
 
-- **Master of Engineering** in Computer Science | Pune University (2017–2019)
-- **Technical Blogger** – Medium, Dev.to, Hashnode
+- **Bachelor of Engineering** in Computer Science | Pune University (2010–2014)
+- **Technical Blogger** – Medium, LinkedIn
 - **Continuous Learner** – Latest in .NET, React, AI/ML, and cloud-native architecture
 
 ---
