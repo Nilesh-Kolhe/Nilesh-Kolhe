@@ -145,16 +145,6 @@ I'm actively seeking **Senior Software Engineer / Tech Lead** roles in:
 
 ---
 
-## 📊 GitHub Stats
-
-### 📈 Overall Activity
-![Nilesh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nilesh-Kolhe&show_icons=true&theme=dark&count_private=true)
-
-### 🔤 Top Languages
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nilesh-Kolhe&layout=compact&theme=dark)
-
----
-
 ## 🤝 Contributing & Open to Collaboration
 
 I'm open to:
