@@ -1,6 +1,6 @@
-# Hey there 👋 | Full-Stack Engineer | AI/Automation Builder
+# Hey there 👋 | AI-Native Full-Stack Engineer | AI/Automation Builder
 
-> **Senior Full-Stack Developer** | 11+ years shipping production code | Passionate about **n8n automation**, **AI integration**, and **system design**
+> **Senior AI-Native Full-Stack Developer** | 11+ years shipping production code | Passionate about **n8n automation**, **AI integration**, and **system design**
 
 ---
 
@@ -8,7 +8,7 @@
 
 I'm a **Senior Full-Stack Engineer** with **11+ years of experience** in **C#/.NET** (11y), **Angular** (6y), and **React** (3.5y), building scalable systems and intelligent automation workflows. I specialize in connecting services, automating workflows with AI, and designing systems that just work.
 
-**Currently exploring opportunities in India/Europe/UK/New Zealand** to take on challenging senior roles where I can drive technical excellence and architectural decisions.
+**Currently exploring opportunities in India/Europe/UK/Australia/New Zealand** to take on challenging senior roles where I can drive technical excellence and architectural decisions.
 
 ---
 
@@ -29,6 +29,11 @@ I'm a **Senior Full-Stack Engineer** with **11+ years of experience** in **C#/.N
 
 ## 🛠️ Core Expertise
 
+### Automation & AI Integration
+- **n8n Workflows** – GitHub integration, webhook orchestration, multi-service automation
+- **LLM Integration** – Groq AI, structured JSON parsing, agentic workflows
+- **API Integration** – REST, GitHub CoPilot, GraphQL, webhooks, third-party service orchestration
+  
 ### Backend & Architecture
 - **C# / .NET** (11 years) – ASP.NET Core, microservices, distributed systems, event-driven architecture
 - **Cloud Platforms** – Azure (AKS, App Service, Functions), Docker, Kubernetes
@@ -38,11 +43,6 @@ I'm a **Senior Full-Stack Engineer** with **11+ years of experience** in **C#/.N
 - **React** (3.5 years) – Modern hooks, state management, component architecture
 - **Angular** (6 years) – RxJS, lazy loading, performance optimization
 - **Web Standards** – TypeScript, responsive design, accessibility, PWA concepts
-
-### Automation & AI Integration
-- **n8n Workflows** – GitHub integration, webhook orchestration, multi-service automation
-- **LLM Integration** – Groq AI, structured JSON parsing, agentic workflows
-- **API Integration** – REST, GraphQL, webhooks, third-party service orchestration
 
 ---
 
@@ -79,9 +79,10 @@ Responsive, modern portfolio built with React showcasing professional work and t
 | **Languages** | C#, JavaScript/TypeScript, HTML/CSS, JSON |
 | **Backend** | .NET Core, ASP.NET Core, Microservices, REST APIs, GraphQL |
 | **Frontend** | React, Angular, Component Architecture, State Management |
+| **AI** | Ollama, LangChain, PyPDF, FAISS Vector DB, Flask REST API, GitHub CoPilot, n8n |
 | **Cloud** | Azure, Docker, Kubernetes, GitHub Actions, CI/CD |
 | **Databases** | SQL Server, PostgreSQL, NoSQL concepts |
-| **Tools & Platforms** | Git, GitHub, Azure DevOps, n8n, VS Code, Postman |
+| **Tools & Platforms** | Git, GitHub, Azure DevOps, VS Code, Postman |
 | **Methodologies** | Agile, System Design, Code Review, Performance Optimization |
 
 ---
@@ -122,7 +123,7 @@ I'm actively seeking **Senior Software Engineer / Tech Lead** roles in:
 - **Blog**: [Medium](https://medium.com/@nilesh-kolhe) | [Dev.to](https://dev.to/nilesh-kolhe)
 - **LinkedIn**: [@Nilesh-Kolhe](https://linkedin.com/in/nilesh-kolhe)
 - **Twitter/X**: [@NeeleshKolhe](https://twitter.com/NeeleshKolhe)
-- **Email**: nilesh.work.001@gmail.com
+- **Email**: kolhe.nilesh@rocketmail.com
 
 ---
 
@@ -155,4 +156,4 @@ I'm open to:
 
 ---
 
-**Last Updated**: December 2025
+**Last Updated**: January 2026
