@@ -14,8 +14,8 @@ I'm a **Senior Full-Stack Engineer** with **11+ years of experience** in **C#/.N
 
 ## 🏆 Tech Stack Highlights
 
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![AI-Native](https://img.shields.io/badge/AI--Native-8A2BE2?style=for-the-badge&logo=ai-native&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
@@ -32,8 +32,8 @@ I'm a **Senior Full-Stack Engineer** with **11+ years of experience** in **C#/.N
 
 ### Automation & AI Integration
 - **n8n Workflows** – GitHub integration, webhook orchestration, multi-service automation
-- **LLM Integration** – Groq AI, structured JSON parsing, agentic workflows
-- **API Integration** – REST, GitHub CoPilot, GraphQL, webhooks, third-party service orchestration
+- **LLM Integration** – Ollama, Groq AI, structured JSON parsing, agentic workflows
+- **API Integration** – REST, Flask REST API, GitHub CoPilot, GraphQL, Webhooks, Third-party service orchestration
   
 ### Backend & Architecture
 - **C# / .NET** (11 years) – ASP.NET Core, microservices, distributed systems, event-driven architecture
@@ -110,9 +110,9 @@ Responsive, modern portfolio built with React showcasing professional work and t
 
 I'm actively seeking **Senior Software Engineer / Tech Lead** roles in:
 - **Locations**: India, Sweden, Denmark, Norway, New Zealand, UK, EU
-- **Role focus**: Senior IC roles, architectural influence, technical leadership
+- **Role focus**: Senior IC roles, Architectural influence, Technical leadership
 - **Stack preference**: .NET/.NET Core, React/Angular, Cloud-native, AI/Automation
-- **Company stage**: Fast-growing startups, scale-ups, and established tech companies
+- **Company stage**: Fast-growing startups, Scale-ups, and Established tech companies
 
 **Status**: 📍 Currently in India | ✈️ Ready to relocate | 🔄 90-day notice period (negotiable)
 
