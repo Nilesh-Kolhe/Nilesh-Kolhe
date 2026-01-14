@@ -15,7 +15,7 @@ I'm a **Senior Full-Stack Engineer** with **11+ years of experience** in **C#/.N
 ## 🏆 Tech Stack Highlights
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![AI-Native](https://img.shields.io/badge/AI--Native-8A2BE2)
+![AI-Native](https://img.shields.io/badge/AI--Native-8A2BE2?style=for-the-badge&logo=ai-native&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
