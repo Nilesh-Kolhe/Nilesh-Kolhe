@@ -1,4 +1,5 @@
-# Hey there 👋 | AI-Native Full-Stack Engineer | AI/Automation Builder
+# Hey There 👋
+## AI-Native Full-Stack Engineer | AI/Automation Builder
 
 > **Senior AI-Native Full-Stack Developer** | 11+ years shipping production code | Passionate about **n8n automation**, **AI integration**, and **system design**
 
